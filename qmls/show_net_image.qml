@@ -1,10 +1,10 @@
-import QtQuick 2.2
-import QtQuick.Controls 1.2
+import QtQuick 2.5
+import QtQuick.Controls 2.4
 
 Rectangle {
-    width: 480;
-    height: 320;
-    color: "#121212";
+    width: 480*2;
+    height: 320*2;
+    color: "white";
 
     BusyIndicator {
         id: busy;
@@ -43,6 +43,6 @@ Rectangle {
     }
 
     Component.onCompleted: {
-        imageViewer.source = "http://image.cuncunle.com/Images/EditorImages/2013/01/01/19/20130001194920468.JPG";
+        imageViewer.source = "http://img1.3lian.com/img2011/w11/1101/14/d/72.png";
     }
 }
